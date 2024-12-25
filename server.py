@@ -28,8 +28,7 @@ def emo_dectector():
 #rendering html 
 @app.route("/")
 def render_index_page():
-    return render_template('if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)')
+    return render_template('index.html')
 
 #running application on localhost:5000
 if __name__ == "__main__":
